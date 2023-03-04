@@ -308,6 +308,8 @@ let platinum = {
         resortarea: {
 			house:      {x: 168, y: 119                               },
 			center:     {x: 70,  y: 319                               },
+			ribbon:     {x: 391, y: 107 							  },
+			villa:		{x: 360, y: 288 							  },
 			center_up:  {x: 544, y: 110, name: "Resort Area (Center)" },
 			center_mid: {x: 641, y: 182, name: "Resort Area (Center)" },
 			center_bot: {x: 686, y: 110, name: "Resort Area (Center)" },
@@ -623,14 +625,14 @@ let platinum = {
         [["normal",      0], ["fighting",    0], ["flying",        0], ["poison", 0], ["ground",   0], ["rock",        0], ["bug",         0], ["ghost",  0], ["fairy", 0]],
         [["steel",       0], ["fire",        0], ["water",         0], ["grass",  0], ["electric", 0], ["psychic",     0], ["ice",         0], ["dragon", 0], ["dark",  0]],
         [["1",           0], ["2",           0], ["3",             0], ["4",      0], ["5",        0], ["6",           0], ["7",           0], ["8",      0]],
-		[["bike_needed", 0], ["p_trainer",   0], ["team_galactic", 0], ["regis",  0]],
+		[["bike_needed", 0], ["p_trainer",   0], ["team_galactic", 0], ["regis",  0], ["dialga_palkia", 0], ["arceus", 0]],
         [["p_bush",      0], ["p_surf",      0], ["p_boulder",     0], ["p_fog",  0], ["p_rock",   0], ["p_waterfall", 0], ["p_rockywall", 0]],
     ],
     progress: [
         [["coal_badge", 0], ["forest_badge", 0], ["cobble_badge", 0], ["fen_badge",   0], ["relic_badge", 0], ["mine_badge",   0], ["icicle_badge", 0], ["beacon_badge", 0]],
         [["p_aaron",    0], ["p_bertha",     0], ["p_flint",      0], ["p_lucian",    0], ["p_cynthia",   0]],
         [["hm_cut",     0], ["hm_fly",       0], ["hm_surf",      0], ["hm_strength", 0], ["hm_defog",    0], ["hm_rocksmash", 0], ["hm_waterfall", 0], ["hm_rockclimb", 0]],
-        [["bike",       0], ["works_key",    0], ["galactic_key", 0]],
+        [["bike",       0], ["works_key",    0], ["galactic_key", 0], ["roark", 0], ["fantina", 0], ["volkner", 0]],
     ],
 	modifiers: [
 		[["#ce4069", 0], ["#ff9c54", 0], ["#f3d23b", 0], ["#743683", 0], ["#654321", 0], ["#014f01", 0]],
