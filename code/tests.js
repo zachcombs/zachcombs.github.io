@@ -57,6 +57,7 @@ function RunTests() {
     }
     if (errors.length == 0) {
         console.log("Tests ran successfully!");
+        console.log("This is just here to trigger another build")
         return;
     }
     for (let e of errors) {
